@@ -1,0 +1,72 @@
+{
+  "name": "commander",
+  "version": "2.5.0",
+  "description": "the complete solution for node.js command-line programs",
+  "keywords": {
+    "0": "command",
+    "1": "option",
+    "2": "parser",
+    "3": "prompt"
+  },
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tj/commander.js.git"
+  },
+  "devDependencies": {
+    "should": ">= 0.0.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "bugs": {
+    "url": "https://github.com/tj/commander.js/issues"
+  },
+  "homepage": "https://github.com/tj/commander.js",
+  "_id": "commander@2.5.0",
+  "_shasum": "d777b6a4d847d423e5d475da864294ac1ff5aa9d",
+  "_from": ".",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "zhiyelee",
+    "email": "zhiyelee@gmail.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "tjholowaychuk",
+      "email": "tj@vision-media.ca"
+    },
+    "1": {
+      "name": "somekittens",
+      "email": "rkoutnik@gmail.com"
+    },
+    "2": {
+      "name": "zhiyelee",
+      "email": "zhiyelee@gmail.com"
+    },
+    "3": {
+      "name": "thethomaseffect",
+      "email": "thethomaseffect@gmail.com"
+    }
+  },
+  "dist": {
+    "shasum": "d777b6a4d847d423e5d475da864294ac1ff5aa9d",
+    "tarball": "http://registry.npmjs.org/commander/-/commander-2.5.0.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "nodelibs": "github:jspm/nodelibs@0.0.7"
+  }
+}

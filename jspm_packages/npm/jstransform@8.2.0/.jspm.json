@@ -1,0 +1,92 @@
+{
+  "name": "jstransform",
+  "version": "8.2.0",
+  "description": "A simple AST visitor-based JS transformer",
+  "contributors": {
+    "0": {
+      "name": "Jeff Morrison",
+      "email": "jeffmo@fb.com"
+    }
+  },
+  "main": "src/jstransform",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:facebook/jstransform.git"
+  },
+  "keywords": {
+    "0": "transformer",
+    "1": "compiler",
+    "2": "syntax",
+    "3": "visitor"
+  },
+  "licenses": {
+    "0": {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
+  "engines": {
+    "node": ">=0.8.8"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.1.5"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/jestPreprocessor.js",
+    "setupEnvScriptFile": "<rootDir>/jestEnvironment.js",
+    "testPathIgnorePatterns": {
+      "0": "/node_modules/",
+      "1": "/__tests__/[^/]*/.+"
+    }
+  },
+  "scripts": {
+    "prepublish": "jest",
+    "test": "jest"
+  },
+  "gitHead": "4335df00eafe4a128d9dbd8ebece665441ff4e5f",
+  "bugs": {
+    "url": "https://github.com/facebook/jstransform/issues"
+  },
+  "homepage": "https://github.com/facebook/jstransform",
+  "_id": "jstransform@8.2.0",
+  "_shasum": "e43f697f7cc01a1e7c827dd9df5a79d29d0c50bb",
+  "_from": ".",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "jeffmo",
+    "email": "jeff@anafx.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "jeffmo",
+      "email": "jeff@anafx.com"
+    },
+    "1": {
+      "name": "zpao",
+      "email": "paul@oshannessy.com"
+    },
+    "2": {
+      "name": "amasad",
+      "email": "amjad.masad@gmail.com"
+    },
+    "3": {
+      "name": "gabelevi",
+      "email": "gabelevi@gmail.com"
+    }
+  },
+  "dist": {
+    "shasum": "e43f697f7cc01a1e7c827dd9df5a79d29d0c50bb",
+    "tarball": "http://registry.npmjs.org/jstransform/-/jstransform-8.2.0.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "base62": "base62@0.1.1",
+    "esprima-fb": "esprima-fb@8001.1001.0-dev-harmony-fb",
+    "source-map": "source-map@0.1.31",
+    "nodelibs": "github:jspm/nodelibs@0.0.7"
+  }
+}

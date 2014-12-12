@@ -1,0 +1,171 @@
+{
+  "name": "source-map",
+  "description": "Generates and consumes source maps",
+  "version": "0.1.40",
+  "homepage": "https://github.com/mozilla/source-map",
+  "author": {
+    "name": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com"
+  },
+  "contributors": {
+    "0": {
+      "name": "Tobias Koppers",
+      "email": "tobias.koppers@googlemail.com"
+    },
+    "1": {
+      "name": "Duncan Beevers",
+      "email": "duncan@dweebd.com"
+    },
+    "2": {
+      "name": "Stephen Crane",
+      "email": "scrane@mozilla.com"
+    },
+    "3": {
+      "name": "Ryan Seddon",
+      "email": "seddon.ryan@gmail.com"
+    },
+    "4": {
+      "name": "Miles Elam",
+      "email": "miles.elam@deem.com"
+    },
+    "5": {
+      "name": "Mihai Bazon",
+      "email": "mihai.bazon@gmail.com"
+    },
+    "6": {
+      "name": "Michael Ficarra",
+      "email": "github.public.email@michael.ficarra.me"
+    },
+    "7": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com"
+    },
+    "8": {
+      "name": "Alexander Solovyov",
+      "email": "alexander@solovyov.net"
+    },
+    "9": {
+      "name": "Felix Gnass",
+      "email": "fgnass@gmail.com"
+    },
+    "10": {
+      "name": "Conrad Irwin",
+      "email": "conrad.irwin@gmail.com"
+    },
+    "11": {
+      "name": "usrbincc",
+      "email": "usrbincc@yahoo.com"
+    },
+    "12": {
+      "name": "David Glasser",
+      "email": "glasser@davidglasser.net"
+    },
+    "13": {
+      "name": "Chase Douglas",
+      "email": "chase@newrelic.com"
+    },
+    "14": {
+      "name": "Evan Wallace",
+      "email": "evan.exe@gmail.com"
+    },
+    "15": {
+      "name": "Heather Arthur",
+      "email": "fayearthur@gmail.com"
+    },
+    "16": {
+      "name": "Hugh Kennedy",
+      "email": "hughskennedy@gmail.com"
+    },
+    "17": {
+      "name": "David Glasser",
+      "email": "glasser@davidglasser.net"
+    },
+    "18": {
+      "name": "Simon Lydell",
+      "email": "simon.lydell@gmail.com"
+    },
+    "19": {
+      "name": "Jmeas Smith",
+      "email": "jellyes2@gmail.com"
+    },
+    "20": {
+      "name": "Michael Z Goddard",
+      "email": "mzgoddard@gmail.com"
+    },
+    "21": {
+      "name": "azu",
+      "email": "azu@users.noreply.github.com"
+    },
+    "22": {
+      "name": "John Gozde",
+      "email": "john@gozde.ca"
+    },
+    "23": {
+      "name": "Adam Kirkton",
+      "email": "akirkton@truefitinnovation.com"
+    },
+    "24": {
+      "name": "Chris Montgomery",
+      "email": "christopher.montgomery@dowjones.com"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mozilla/source-map.git"
+  },
+  "main": "./lib/source-map.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": {
+    "0": {
+      "type": "BSD",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  },
+  "devDependencies": {
+    "dryice": ">=0.4.8"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "build": "node Makefile.dryice.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla/source-map/issues"
+  },
+  "_id": "source-map@0.1.40",
+  "_shasum": "7e0ee49ec0452aa9ac2b93ad5ae54ef33e82b37f",
+  "_from": ".",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "nickfitzgerald",
+    "email": "fitzgen@gmail.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "mozilla-devtools",
+      "email": "mozilla-developer-tools@googlegroups.com"
+    },
+    "1": {
+      "name": "mozilla",
+      "email": "dherman@mozilla.com"
+    },
+    "2": {
+      "name": "nickfitzgerald",
+      "email": "fitzgen@gmail.com"
+    }
+  },
+  "dist": {
+    "shasum": "7e0ee49ec0452aa9ac2b93ad5ae54ef33e82b37f",
+    "tarball": "http://registry.npmjs.org/source-map/-/source-map-0.1.40.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "amdefine": "amdefine@0.0",
+    "nodelibs": "github:jspm/nodelibs@0.0.7"
+  }
+}

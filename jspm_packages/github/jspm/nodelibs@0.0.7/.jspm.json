@@ -1,0 +1,52 @@
+{
+  "name": "nodelibs",
+  "description": "jspm Node builtin libraries",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/jspm/nodelibs"
+  },
+  "registry": "npm",
+  "map": {
+    "assert": "./assert",
+    "buffer": "./buffer",
+    "console": "./console",
+    "constants": "./constants",
+    "crypto": "./crypto",
+    "domain": "./domain",
+    "events": "./events",
+    "http": "./http",
+    "https": "./https",
+    "os": "./os",
+    "path": "./path",
+    "process/browser": "./process",
+    "process": "./process",
+    "punycode": "./punycode",
+    "querystring": "./querystring",
+    "stream": "./stream",
+    "string_decoder": "./string_decoder",
+    "support": "./support",
+    "timers": "./timers",
+    "tty": "./tty",
+    "url": "./url",
+    "util": "./util",
+    "vm": "./vm",
+    "zlib": "./zlib"
+  },
+  "buildConfig": {
+    "minify": true,
+    "transpileES6": false
+  },
+  "directories": {
+    "lib": "packaged",
+    "dist": "dist"
+  },
+  "useJSExtensions": true,
+  "license": "MIT",
+  "dependencies": {
+    "Base64": "~0.2.0",
+    "base64-js": "~0.0.4",
+    "ieee754": "~1.1.1",
+    "inherits": "~2.0.1",
+    "json": "github:systemjs/plugin-json@^0.1.0"
+  }
+}

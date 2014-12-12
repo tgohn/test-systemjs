@@ -1,0 +1,131 @@
+{
+  "name": "source-map",
+  "description": "Generates and consumes source maps",
+  "version": "0.1.31",
+  "homepage": "https://github.com/mozilla/source-map",
+  "author": {
+    "name": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com"
+  },
+  "contributors": {
+    "0": {
+      "name": "Tobias Koppers",
+      "email": "tobias.koppers@googlemail.com"
+    },
+    "1": {
+      "name": "Duncan Beevers",
+      "email": "duncan@dweebd.com"
+    },
+    "2": {
+      "name": "Stephen Crane",
+      "email": "scrane@mozilla.com"
+    },
+    "3": {
+      "name": "Ryan Seddon",
+      "email": "seddon.ryan@gmail.com"
+    },
+    "4": {
+      "name": "Miles Elam",
+      "email": "miles.elam@deem.com"
+    },
+    "5": {
+      "name": "Mihai Bazon",
+      "email": "mihai.bazon@gmail.com"
+    },
+    "6": {
+      "name": "Michael Ficarra",
+      "email": "github.public.email@michael.ficarra.me"
+    },
+    "7": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com"
+    },
+    "8": {
+      "name": "Alexander Solovyov",
+      "email": "alexander@solovyov.net"
+    },
+    "9": {
+      "name": "Felix Gnass",
+      "email": "fgnass@gmail.com"
+    },
+    "10": {
+      "name": "Conrad Irwin",
+      "email": "conrad.irwin@gmail.com"
+    },
+    "11": {
+      "name": "usrbincc",
+      "email": "usrbincc@yahoo.com"
+    },
+    "12": {
+      "name": "David Glasser",
+      "email": "glasser@davidglasser.net"
+    },
+    "13": {
+      "name": "Chase Douglas",
+      "email": "chase@newrelic.com"
+    },
+    "14": {
+      "name": "Evan Wallace",
+      "email": "evan.exe@gmail.com"
+    },
+    "15": {
+      "name": "Heather Arthur",
+      "email": "fayearthur@gmail.com"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mozilla/source-map.git"
+  },
+  "main": "./lib/source-map.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": {
+    "0": {
+      "type": "BSD",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  },
+  "devDependencies": {
+    "dryice": ">=0.4.8"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "build": "node Makefile.dryice.js"
+  },
+  "_id": "source-map@0.1.31",
+  "dist": {
+    "shasum": "9f704d0d69d9e138a81badf6ebb4fde33d151c61",
+    "tarball": "http://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz"
+  },
+  "_from": ".",
+  "_npmVersion": "1.2.18",
+  "_npmUser": {
+    "name": "nickfitzgerald",
+    "email": "fitzgen@gmail.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "mozilla-devtools",
+      "email": "mozilla-developer-tools@googlegroups.com"
+    },
+    "1": {
+      "name": "mozilla",
+      "email": "dherman@mozilla.com"
+    },
+    "2": {
+      "name": "nickfitzgerald",
+      "email": "fitzgen@gmail.com"
+    }
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "amdefine": "amdefine@0.0",
+    "nodelibs": "github:jspm/nodelibs@0.0.7"
+  }
+}

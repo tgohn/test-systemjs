@@ -1,0 +1,59 @@
+{
+  "name": "react",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "version": "0.12.1",
+  "keywords": {
+    "0": "react"
+  },
+  "homepage": "https://github.com/facebook/react/tree/master/npm-react",
+  "bugs": {
+    "url": "https://github.com/facebook/react/issues?labels=react-core"
+  },
+  "license": "BSD-3-Clause",
+  "main": "react.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/react"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "browserify": {
+    "transform": {
+      "0": "envify"
+    }
+  },
+  "_id": "react@0.12.1",
+  "_shasum": "b73836f4f1888ce79c9372208398a3fb5483bc35",
+  "_resolved": "react.tgz",
+  "_from": "react.tgz",
+  "scripts": {},
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "jeffmo",
+    "email": "jeff@anafx.com"
+  },
+  "maintainers": {
+    "0": {
+      "name": "zpao",
+      "email": "paul@oshannessy.com"
+    },
+    "1": {
+      "name": "jeffmo",
+      "email": "jeff@anafx.com"
+    }
+  },
+  "dist": {
+    "shasum": "b73836f4f1888ce79c9372208398a3fb5483bc35",
+    "tarball": "http://registry.npmjs.org/react/-/react-0.12.1.tgz"
+  },
+  "registry": "npm",
+  "format": "cjs",
+  "buildConfig": {
+    "minify": true
+  },
+  "dependencies": {
+    "envify": "envify@^3.0.0",
+    "nodelibs": "github:jspm/nodelibs@0.0.7"
+  }
+}
